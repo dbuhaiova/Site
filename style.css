@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header 1 styles */
+
+.section1 {
+  background-color: #284854;
+  height: 799px;
+  width: 1440px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  overflow: hidden;
+}
+
+/* Navigation styles */
+
+li {
+  list-style-type: none;
+}
+
+.navigation {
+  margin: 23px 97px 119px 113px;
+  height: 85px;
+  width: 1234px;
+
+  background: #60c1bd;
+  border: 2px solid #60c1bd;
+  border-radius: 100px;
+  text-align: right;
+}
+.navigation ul li{
+  display: inline-block;
+  padding: 0px 75px 0px 75px;
+}
+
+/* IndeVets */
+h2 {
+  height: 33px;
+  left: 2.6%;
+  right: 87.24%;
+  top: 27px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #ffffff;
+  padding: 27px 305px 21px 32px;
+}
+#logo{
+  padding: 27px 305px 21px 32px;
+  height: 33px;
+  width: 125px;
+  left: 2.6%;
+right: 87.24%;
+  top: 27px;
+  bottom: 21px;
+}
+
+/* NavLinks styles and position */
+.nav_links {
+  height: 25px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #284854;
+  display: inline-block;
+  align-items: end;
+ right: 50px;
+}
+/* Button */
+
+.login_button {
+  height: 27px;
+  width: 77px;
+  left: 89.19%;
+  right: 7.89%;
+  top: 41px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  border: 1px solid #ffffff;
+  padding: 4px 20px;
+  background-color: #60c1bd;
+display: inline-block;
+  color: #ffffff;
+}
+
+#login_button {
+  height: 27px;
+  width: 77px;
+  left: 89.19%;
+  right: 7.89%;
+  top: 41px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  border: 1px solid #ffffff;
+  padding: 4px 20px;
+  background-color: #60c1bd;
+display: inline-block;
+  color: #ffffff;
+}
+
+/* Veterinary staffing done right. Title styles */
+.title1{
+  height: 204px;
+  width: 712px;
+left: 0%;
+right: 4.56%;
+top: -15px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 85px;
+line-height: 102px;
+
+color: #8BC441;
+margin: 119px 548px 0px 180px;
+}
+
+.text1{
+height: 112px;
+width: 542px;
+left: 0%;
+right: 28.31%;
+top: 249px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+color: #FFFFFF;
+margin: 60px 718px 120px 180px;
+}
+.image_girl{
+  width: 320px;
+height: 361px;
+/* left: calc(50% - 320px/2 + 378px);
+top: calc(50% - 361px/2 + 8px); */
+
+border-radius: 0px;
+right: 182px;
+left: 938px;
+top: 261px;
+}
