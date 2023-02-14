@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  width: 1440px;
+height: 3981px;
+}
 
 /* Header 1 styles */
 
@@ -34,7 +38,7 @@ li {
 }
 .navigation ul li{
   display: inline-block;
-  padding: 0px 75px 0px 75px;
+  padding: 0px 42px 0px 42px;
 }
 
 /* IndeVets */
@@ -51,16 +55,18 @@ h2 {
   line-height: 35px;
 
   color: #ffffff;
-  padding: 27px 305px 21px 32px;
+  
 }
 #logo{
-  padding: 27px 305px 21px 32px;
+  padding: 27px 0px 0px 32px;
+  margin: 0px;
   height: 33px;
   width: 125px;
   left: 2.6%;
-right: 87.24%;
+  right: 87.24%;
   top: 27px;
   bottom: 21px;
+  
 }
 
 /* NavLinks styles and position */
@@ -78,6 +84,8 @@ right: 87.24%;
   align-items: end;
  right: 50px;
 }
+
+
 /* Button */
 
 .login_button {
@@ -97,26 +105,10 @@ right: 87.24%;
   background-color: #60c1bd;
 display: inline-block;
   color: #ffffff;
+  
+  margin: 0px 77px 17px;
 }
 
-#login_button {
-  height: 27px;
-  width: 77px;
-  left: 89.19%;
-  right: 7.89%;
-  top: 41px;
-
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  border: 1px solid #ffffff;
-  padding: 4px 20px;
-  background-color: #60c1bd;
-display: inline-block;
-  color: #ffffff;
-}
 
 /* Veterinary staffing done right. Title styles */
 .title1{
@@ -152,11 +144,91 @@ line-height: 28px;
 color: #FFFFFF;
 margin: 60px 718px 120px 180px;
 }
+
+/* Images */
 .image_girl{
   width: 320px;
 height: 361px;
-/* left: calc(50% - 320px/2 + 378px);
-top: calc(50% - 361px/2 + 8px); */
-
 border-radius: 0px;
+margin-top : -438px;
+margin-bottom: 177px;
+margin-left: 938px;
+}
+
+/* Card 1 */
+.card_1{
+  height: 203px;
+  width: 506px;
+background-color: #F4F6F0;
+border-radius: 4px;
+display: inline-block;
+
+}
+
+.veterinarians{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 43px;
+width: 237px;
+display: inline-block;
+
+color: #8BC441;
+
+}
+
+.veterinarians_description{
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+display: inline-block;
+color: #60C1BD;
+}
+
+.image_woman_cat{
+  padding: 45px 46px 47px 30px;
+}
+
+/* Card 2 */
+.card_2{
+  height: 203px;
+  width: 506px;
+background-color: #F4F6F0;
+border-radius: 4px;
+display: inline-block;
+
+}
+
+.hospitals{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 43px;
+width: 237px;
+display: inline-block;
+
+color: #8BC441;
+
+}
+
+.hospitals_description{
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+display: inline-block;
+color: #60C1BD;
+}
+
+.image_dog_cat{
+  padding: 45px 46px 47px 30px;
+}
+
+section{
+  justify-content: space-between;
 }
